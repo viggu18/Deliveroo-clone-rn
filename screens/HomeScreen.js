@@ -76,12 +76,10 @@ const HomeScreen = () => {
       {/* Body */}
 
       <ScrollView
-        contentContainerStyle={
-          {
-            // paddingBottom: 10,
-            // marginBottom: 10,
-          }
-        }
+        contentContainerStyle={{
+          paddingBottom: 120,
+          // marginBottom: 10,
+        }}
         nestedScrollEnabled={true}
         showsVerticalScrollIndicator={false}
         className="bg-white"
